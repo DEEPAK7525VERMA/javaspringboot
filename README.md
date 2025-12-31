@@ -10,10 +10,11 @@ My goal is to understand core Spring concepts by building small features, fixing
 
 - Creating REST APIs with `@RestController`
 - Handling requests using `GET`, `POST`, `PUT`, `DELETE`
-- Connecting Spring Boot with a database (H2 / MySQL)
+- Connecting Spring Boot with a database (H2 / MySQL / PostgreSQL)
 - Basic CRUD operations using Spring Data JPA
 - Exception handling and `ResponseEntity`
 - Validation using `@Valid`
+- Learning Java concepts while building projects
 
 ---
 
