@@ -18,6 +18,23 @@ My goal is to understand core Spring concepts by building small features, fixing
 
 ---
 
+## 📐 Understanding MVC Architecture (Model–View–Controller)
+
+Spring Boot follows the **MVC pattern**, which helps organize code cleanly:
+
+- **Model** — Represents the data and business logic  
+  (Entities, DTOs, Service logic, Repository layer)
+
+- **View** — What the user sees  
+  (In REST APIs, the *view* is usually JSON responses — not HTML pages)
+
+- **Controller** — Handles incoming requests and sends responses  
+  (Receives data → calls services → returns results)
+
+👉 This separation makes the project easier to test, maintain, and extend.
+
+---
+
 ## 🧠 What I learned: DTOs (Data Transfer Objects)
 
 DTOs are simple classes used to **transfer data between layers** — especially between the controller and service.  
